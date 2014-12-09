@@ -32,3 +32,19 @@ Published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
     --hostname work \
     --name deeone \
     deeone/java-workspace
+
+
+### Troubleshooting
+1. **Missing apparmor**
+
+Run the command below:
+
+    sudo docker -d
+
+If an error similar to the one below is displayed:
+
+    Error loading docker apparmor profile: fork/exec /sbin/apparmor_parser: no such file or directory ()
+
+Then install apparmor:
+
+    sudo apt-get install apparmor
