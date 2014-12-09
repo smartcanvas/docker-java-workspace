@@ -13,7 +13,7 @@ Published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Installation
 
-1. Install [Docker](https://www.docker.com/).
+1. Install [Docker](https://docs.docker.com/installation/#installation).
 
 2. Download [automated build](https://registry.hub.docker.com/u/deeone/java-workspace/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull deeone/java-workspace`
 
