@@ -2,7 +2,10 @@ java-workspace
 =====================
 
 This repository contains **Dockerfile** for D1 team java workspace. 
-It can be found at [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/deeone/java-workspace/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+
+More details on [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/deeone/java-workspace/) page. 
+
+Published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Base Docker Image
 
