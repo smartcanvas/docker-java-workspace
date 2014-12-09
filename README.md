@@ -23,11 +23,3 @@ Published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 ### Usage
 
     docker run -u 1000 -it -p 8080:8080 --volume $SSH_AUTH_SOCK:/ssh-agent --env SSH_AUTH_SOCK=/ssh-agent --volume /home/fabio/Development:/workspace --volume /home/fabio/.m2:/home/deeone/.m2  --hostname work --name deeone deeone/java-workspace
-
-#### Run `java`
-
-    docker run -it --rm deeone/java-workspace java
-
-#### Run `mvn`
-
-    docker run -it --rm deeone/java-workspace mvn
