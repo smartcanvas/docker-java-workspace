@@ -1,0 +1,13 @@
+web:
+  image: ciandtsoftware/appengine-python-nodejs
+  command: php -S 0.0.0.0:8000 -t /code
+  ports:
+    - "8000:8000"
+  links:
+    - brain
+  volumes:
+    - .:/code
+brain:
+  image: ciandtsoftware/deeone-java-workspace
+  environment:
+    MYSQL_DATABASE: wordpress
